@@ -10,7 +10,7 @@ functions:
     events:
       - http:
           path: bot
-          method: any
+          method: post
           cors: true
 
 plugins:
