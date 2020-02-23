@@ -9,7 +9,7 @@ functions:
     handler: handler.bot
     events:
       - http:
-          path: bot
+          path: bot-prod
           method: post
           cors: true
 
